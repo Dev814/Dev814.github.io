@@ -1,5 +1,7 @@
+
 body {
-  background-color: #00BFFF;
+  font-family: 'Quicksand', sans-serif;
+  background-color: white;
   color: 009900;
   text-align: center;
   font-size: 24px;
@@ -8,17 +10,22 @@ body {
 }
 
 h1 {
-  color: black;
+  font-family: 'Quicksand', sans-serif;
+  text-align: left;
+  text-transform: uppercase;
+  color: #0066CC;
   font-size: 75px;
   font-weight: bold;
   margin: 25px;
 }
 
 p {
+  font-family: 'Quicksand', sans-serif;
   margin: 25px;
 }
 
 a {
+  font-family: 'Quicksand', sans-serif;
   font-size: 16px;
   text-decoration: none;
   color: yellow;
@@ -26,6 +33,7 @@ a {
 }
 
 #slogan {
+  font-family: 'Quicksand', sans-serif;
   font-weight: bold;
   margin: 25px;
   font-style: italic;
@@ -34,9 +42,9 @@ a {
 }
 
 ul {
-  font-family: monospace;
+  font-family: 'Quicksand', sans-serif;
   list-style: none;
-  color: black;
+  color: #00CC99;
   text-transform: uppercase;
 }
 
