@@ -53,9 +53,14 @@ h2 {
   color: gray;
 }
 
-p {
+#info {
   color: gray;
 }
+
+p:hover {
+  background-color: yellow;
+}
+
 
 footer {
   background-color: yellow;
