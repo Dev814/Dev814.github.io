@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+h1 {
+  text-align: right;
+  font-family: 'Lato', verdana;
+}
+
+h3 {
+  font-weight: bold;
+}
+header {
+    background-color:green;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+nav {
+  text-align: right;
+  background-color: red;
+}
+
+ul li {
+  display: inline;
+  font-weight: bold;
+}
+aside {
+
+    background-color: yellow;
+    width:300px;
+    float:left;
+    padding:10px;
+    border:
+}
+section {
+  background-color: blue;
+  color: black;
+  border: dotted 3px #b200ff;
+}
+footer {
+    background-color:pink;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:3px;
+}
