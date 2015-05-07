@@ -2,17 +2,10 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
 body {
-  background-color: #FAFAD2;
-  font-family: verdana;
-}
-
-h1 {
-  text-align: center;
-  font-size: 2em;
-}
-
-h2 {
-  font-weight: bold;
+  background-color: lightgrey;
+  font-family: verdana, sans-serif;
+  font-size: 1em;
+  color: black;
 }
 
 header {
@@ -21,25 +14,31 @@ header {
   color: black;
   text-align: center;
   padding: 15px;
+
 }
 
-nav {
-  text-align: right;
-  background-color: yellow;
-  padding: 5px;
+h1 {
+  text-align: left;
+  font-size: 2em;
 }
 
-ul li {
+nav ul a {
   display: inline;
+  text-decoration: none;
   font-weight: bold;
 }
 
+
 aside {
-  background-color: #F08080;
+  background-color: blue;
   width: 25%;
   float: left;
   padding: 10px;
   /*border:*/
+}
+
+h2 {
+  font-weight: bold;
 }
 
 main {
@@ -62,7 +61,7 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 40px;
+  height: 60px;
   background-color: pink;
   color: black;
   clear: both;
