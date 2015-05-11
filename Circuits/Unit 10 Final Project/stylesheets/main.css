@@ -1,19 +1,19 @@
-
-@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
 
 body {
-  background-color: lightgrey;
   font-family: verdana, sans-serif;
-  font-size: 1em;
+  font-size: 100%
+  line-height: 1.5;
   color: black;
 }
 
 header {
   background-color: white;
-  font-family: 'Lato',
-  color: black;
-  text-align: center;
-  padding: 15px;
+  font-family:'Poiret One', cursive;
+  /*color: black;*/
+  text-align: right;
+  padding: 10px;
+  margin: 5px;
 
 }
 
@@ -28,6 +28,15 @@ nav ul a {
   font-weight: bold;
 }
 
+a {
+  color: purple;
+  text-decoration: none;
+  padding: 10px;
+}
+
+a.hover {
+  background-color: green;
+}
 
 aside {
   background-color: blue;
@@ -42,11 +51,16 @@ h2 {
 }
 
 main {
+  background-color: red;
   padding: 10px;
-  width: 75%;
+  width: 100%;
   /*border: 1px solid black;*/
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
 .clearfix {
   overflow: auto;
 }
