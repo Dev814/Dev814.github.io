@@ -38,24 +38,15 @@ a.hover {
   background-color: green;
 }
 
-aside {
-  background-color: blue;
-  width: 25%;
-  float: left;
-  padding: 10px;
-  /*border:*/
-}
 
 h2 {
   font-weight: bold;
 }
 
 main {
-  background-color: red;
   padding: 10px;
   width: 100%;
-  /*border: 1px solid black;*/
-  ba
+
 }
 
 img {
